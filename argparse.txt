@@ -1,0 +1,13 @@
+import argparse
+
+ap = argparse.ArgumentParser()
+
+ap.add_argument("-u", "--username", required=True, help="Your Name")
+ap.add_argument("-s", "--surname", required=False, help="Your Surname")
+
+arg = ap.parse_args()
+
+if arg.surname == None:
+    arg.surname = ''
+
+print(str(f"Your name: {arg.username}, Your Surname: {arg.surname}"))

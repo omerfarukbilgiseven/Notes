@@ -1,0 +1,3 @@
+./chisel server -p 3306 --reverse
+
+./chisel client <yourIP>:3306 R:1234:127.0.0.1:1234

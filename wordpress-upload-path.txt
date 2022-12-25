@@ -1,0 +1,1 @@
+/wp-content/themes/[themename]/404.php

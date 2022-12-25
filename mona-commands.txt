@@ -1,0 +1,9 @@
+!mona config -set workingfolder c:\mona\%p
+
+!mona findmsp -distance 2400 --> Find offset value
+
+!mona bytearray -b "\x00" --> Find badchars step 1
+
+!mona compare -f bytearray.bin -a $ESP_VALUE --> Find badchars
+
+!mona bytearray -b "\x00\$BADCHARS" --> Find JMP ESP

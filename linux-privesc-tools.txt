@@ -1,0 +1,19 @@
+Linenum: https://github.com/rebootuser/LinEnum
+
+Enumy: https://github.com/luke-goddard/enumy
+
+Unix Privesc Check: http://pentestmonkey.net/tools/audit/unix-privesc-check
+
+Linux Priv Checker: http://www.securitysift.com/download/linuxprivchecker.py
+ 
+BeeRoot: https://github.com/AlessandroZ/BeRoot/tree/master/Linux
+ 
+Kernelpop: https://github.com/spencerdodd/kernelpop
+
+Metasploit: multi/recon/local_exploit_suggester
+
+Linux Exploit Suggester: multi/recon/local_exploit_suggester
+
+Evilabigail (physical access): https://github.com/GDSSecurity/EvilAbigail
+
+Recopilation of more scripts: https://github.com/1N3/PrivEsc
